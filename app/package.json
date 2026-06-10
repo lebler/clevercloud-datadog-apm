@@ -1,0 +1,16 @@
+{
+  "name": "qboule",
+  "version": "0.1.0",
+  "description": "Qboule storefront — lightweight Express app to try Datadog APM and OTel on Clever Cloud (uninstrumented to start).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "dependencies": {
+    "dd-trace": "^5",
+    "express": "^4.19.2"
+  }
+}
